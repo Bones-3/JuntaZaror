@@ -1,0 +1,33 @@
+# Android y Java
+/.idea/
+*.iml
+
+# Gradle
+/.gradle/
+**/build/
+
+# Firma / Llaves de compilacion
+*.keystore
+*.jks
+*.pepk
+*.apk
+*.aab
+
+# Archivos ocultos del sistema
+.DS_Store
+Thumbs.db
+
+# Capturas e informes de errores
+/captures
+*.log
+
+# Compilacion NDK / C++
+.externalNativeBuild
+.cxx
+# Archivos de configuracion local y claves
+local.properties
+secrets.properties
+
+#Variables de entorno y secretos
+.env
+*.env
